@@ -34,9 +34,18 @@ def main():
 
     # print() 
     print("hello")
-
+    name="Bob"
+    print("hello", name)
     # type()
+    Member_name= "John Smith"
+    Total_points=123
+    Games_played=5
+    Is_playing_game=True
 
+    print("Member_name type", type(Member_name))
+    print("Total_points type", type(Total_points))
+    print("Games_played type", type(Games_played))
+    print("Is_playing_game type", type(Is_playing_game))
     # len()
 
     # input()
