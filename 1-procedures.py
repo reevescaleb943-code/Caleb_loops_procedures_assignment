@@ -58,8 +58,13 @@ def main():
     Favorite_players= ("Larry Bird", "Kobe Bryant", "Michael Jordan")
     print("Favorite_players:", len(Favorite_players))
     # input()
-
-    # range()
+    age=input("How old are you?")
+    if int(age) < 19 and int(age) > 13:
+        print("you are a teenager")
+    else:
+        print("you are not a teenager")
+    print("You entered", age)
+     # range()
 
     # int() 
 
