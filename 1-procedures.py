@@ -28,7 +28,9 @@
 #   Call - my_method() - when you want to use the function
 #
 #python 1-procedures.py
-
+def average_score(Total_points, Games_played):
+    average= Total_points /Games_played
+    return average_score
 def main():
     pass 
 
