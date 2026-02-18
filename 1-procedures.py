@@ -27,11 +27,13 @@
 #   Return - return "foo" - also known as Output 
 #   Call - my_method() - when you want to use the function
 #
+#python 1-procedures.py
 
 def main():
     pass 
 
     # print() 
+    print("hello")
 
     # type()
 
