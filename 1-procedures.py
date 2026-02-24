@@ -28,6 +28,13 @@
 #   Call - my_method() - when you want to use the function
 #
 #python 1-procedures.py
+def checkout_books(has_account, number_of_books):
+    if not has_account:
+        print("You need an account to check out books")
+    elif int(number_of_books) > 4:
+        print("You can only have 5 books checked out at a time")
+    else:
+        print("You can check out more books")
 def say_hi(name):
     greeting="What's up:"+name
     return greeting
@@ -58,6 +65,10 @@ def main():
     # Custom function task 1
     Name=input("what is your name?")
     print(say_hi(Name))
+    # Custom function task 2
+    has_account=input("Do you have an account yes or no?")
+    number_of_books=input("How many books do you have checked out?(Use an integer)")
+    checkout_books(has_account, number_of_books)
     # len()
     Store_name="Cane Pole"
     print(len(Store_name))
