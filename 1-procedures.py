@@ -28,8 +28,11 @@
 #   Call - my_method() - when you want to use the function
 #
 #python 1-procedures.py
-def average_score(Total_points, Games_played):
-    average= Total_points /Games_played
+def say_hi(name):
+    greeting="What's up:"+name
+    return greeting
+def average_score(total_points, games_played):
+    average_score=total_points / games_played
     return average_score
 def main():
     pass 
@@ -43,12 +46,18 @@ def main():
     Total_points=123
     Games_played=5
     Is_playing_game=True
-
+    
     print("Member_name type", type(Member_name))
     print("Total_points type", type(Total_points))
     print("Games_played type", type(Games_played))
     print("Is_playing_game type", type(Is_playing_game))
 
+    # Custom function example
+    average=average_score(Total_points, Games_played)
+    print("average:", average)
+    # Custom function task 1
+    Name=input("what is your name?")
+    print(say_hi(Name))
     # len()
     Store_name="Cane Pole"
     print(len(Store_name))
