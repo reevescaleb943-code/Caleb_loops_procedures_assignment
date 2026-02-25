@@ -26,7 +26,35 @@ def main():
 
     # FOR iterate
     # bounce_actions = []
+    bucket = [
+        "catfish",
+        "trout",
+        "bass",
+        "carp",
+        "mackerel",
+        "shark",
+        "swordfish",
+    ]
 
+    for fish in bucket:
+        print("fish", fish)
 
+    print("bucket[0]:", bucket[0])
+    print("bucket[1]:", bucket[1])
+    print("bucket[2]:", bucket[2])
+    print("bucket[3]:", bucket[3])
+    print("bucket[4]:", bucket[4])
+    print("bucket[5]:", bucket[5])
+    print("bucket[6]:", bucket[6])
+
+    numbers=range(10)
+    print("numbers[0]:", numbers[0])
+    print("numbers[1]:", numbers[1])
+    print("numbers[2]:", numbers[2])
+    print("numbers[3]:", numbers[3])
+    print("numbers[4]:", numbers[4])
+    print("numbers[5]:", numbers[5])
+    print("numbers[6]:", numbers[6])
+    
 if __name__ == "__main__":
     main()
