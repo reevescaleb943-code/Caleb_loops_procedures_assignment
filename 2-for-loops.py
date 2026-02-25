@@ -1,3 +1,7 @@
+def bounce_ball(num_of_bounces):
+    for i in range(num_of_bounces):
+        print("move up")
+        print("fall down")
 def main():
     """
     Loop Statements allow you to easily repeat a chunk of code many times.
@@ -8,6 +12,7 @@ def main():
     Instead you can put the repeated code in a loop
 
     Loops not only save programmers time, they also make programs shorter.
+    python 2-for-loops.py
     """
 
     # bounce a ball
@@ -17,6 +22,7 @@ def main():
     # now repeat this 1000 times 
 
     # FOR LOOP (range)
+    bounce_ball(1000)
 
     # FOR iterate
     # bounce_actions = []
